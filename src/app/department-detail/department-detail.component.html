@@ -1,0 +1,16 @@
+<h3>
+  You've Selected the item  with id = {{departmentId}}
+  <router-outlet></router-outlet>
+  <div class="container">
+    <button type="button" (click)="showOverview()" class="btn btn-success">Overview</button>
+    <button type="button" (click)="showContact()" class="btn btn-success">Contact</button>
+  </div>
+  <div class="container">
+ <h2><a class="btn btn-primary" (click)="goNext()" role="button">Next</a> </h2>
+ <h2> <a class="btn btn-primary" (click)="goPrevious()" role="button">Previous</a></h2>
+ <button class="btn btn-primary" (click)= "goToDepartments()" >
+   goBack
+ </button>
+</div>
+</h3>
+

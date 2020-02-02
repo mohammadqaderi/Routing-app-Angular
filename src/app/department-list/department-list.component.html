@@ -1,0 +1,9 @@
+<h2>
+  Department List
+</h2>
+<ul class="list-group">
+<h1 ><li  (click) = "onSelect(dep)"  class="list-group-item" *ngFor="let dep of departments">
+  <span class="badge badge-secondary">{{dep.id + '|' + dep.name}}</span>
+</li>
+</h1>
+</ul>
